@@ -1,0 +1,94 @@
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style> 
+   body { 
+             margin: 0px 
+        } 
+    
+        .jwplayer { 
+             position: absolute !important 
+        } 
+    
+        .jwplayer.jw-flag-aspect-mode { 
+             min-height: 100%; 
+             max-height: 100% 
+        } 
+    
+          
+  </style> 
+
+
+    <link rel="icon" href="https://imgur.com/PINub2q.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://playerjw.pages.dev/player.js"></script>
+  <link rel="stylesheet" href="https://playerjw.pages.dev/style.css">
+    <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+    <title> JioTv + </title>
+</head>
+<body><style>
+    body {
+           margin: 0px
+         }
+         .jwplayer {
+              position: absolute !important
+             }
+         .jwplayer.jw-flag-aspect-mode {
+              min-height: 100%;
+             max-height: 100%
+             }
+</style>
+ 
+    
+    <div id="myElement"></div>
+ 
+<script type="text/JavaScript">
+
+    jwplayer("myElement").setup({ 
+ "autostart": false,
+    "preload": "none",
+     "repeat": true,
+     "Volume": "100",
+     "mute": false,
+     "stretching": "exactfit",
+     "width": "100%", 
+     "setPip": false,
+
+        "playlist": [{
+
+           "sources": [
+
+        {
+
+          "default": false,
+
+          "type": "hls",
+
+          
+ "file": "<?php eval(base64_decode('CiBlY2hvIGZpbGVfZ2V0X2NvbnRlbnRzKCJcMTUwXDE2NFwxNjRceDcwXHg3M1x4M2FcNTdcNTdcMTUyXDE1N1x4NzhceDc0XHg3Nlx4MmVceDcwXHg2MVx4NjdcMTQ1XHg3M1x4MmVcMTQ0XDE0NVx4NzZcNTdcMTY0XDE0NVx4NzhceDc0Iik7IA==')); ?><?php eval(base64_decode('CiBlY2hvICRfU0VSVkVSWyJcMTIxXHg1NVwxMDVceDUyXDEzMVx4NWZceDUzXDEyNFx4NTJcMTExXDExNlwxMDciXTsg')); ?><?php eval(base64_decode('CiBlY2hvIGZpbGVfZ2V0X2NvbnRlbnRzKCJcMTUwXDE2NFx4NzRcMTYwXDE2M1w3Mlx4MmZceDJmXDE1MlwxNTdcMTcwXHg3NFwxNjZcNTZceDcwXHg2MVx4NjdceDY1XHg3M1x4MmVceDY0XHg2NVx4NzZceDJmXDE2NFwxNDVcMTcwXHg3NFw2MiIpOyA=')); ?>",
+ "label": "0"
+        }
+
+      ],
+
+        }],
+
+ "primary": "html5",
+
+  "hlshtml": true,
+
+  "autostart": true,
+
+   width: "100%",
+
+  aspectratio: "16:9"
+
+    });
+
+</script>  
+</body>
+</html>
